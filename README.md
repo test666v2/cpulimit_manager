@@ -4,6 +4,11 @@
 >>
 This  script allows cpulimit to manage high cpu hogs.
 >>
-Run it from crontab.
+Run it from crontab or manually.
 
-123\> **github.com example_user**
+\# **crontab -e**
+>>
+>>in crontab
+@reboot /path/to/this/script/cpulimit_manager.sh
+>>
+Adjust the variables as needed.
