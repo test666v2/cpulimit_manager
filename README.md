@@ -13,7 +13,7 @@ In a terminal window:
 >>
 \# **crontab -e**
 >>
-In crontab
+In crontab:
 >>**@reboot /path/to/this/script/cpulimit_manager.sh**
 >>
 Adjust the variables as needed.
